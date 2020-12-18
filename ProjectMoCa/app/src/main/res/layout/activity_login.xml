@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivity">
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:textColor="@android:color/white"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/iv_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:letterSpacing="0.1"
+        android:background="@drawable/rounded_tv_border"
+        tools:ignore="Autofill"
+        android:inputType="textEmailAddress"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint="@string/email"
+        android:textColorHint="@android:color/white" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:textColor="@android:color/white"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/et_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:drawableStart="@drawable/ic_key"
+        android:drawablePadding="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:letterSpacing="0.1"
+        android:background="@drawable/rounded_tv_border"
+        tools:ignore="Autofill"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_key"
+        android:hint="@string/password"
+        android:textColorHint="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_ForgotPass"
+        android:layout_below="@+id/et_password"
+        android:layout_marginTop="20dp"
+        android:onClick="resset"
+        android:layout_marginLeft="45dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:letterSpacing="0.1"
+        android:text="@string/forgot_pass"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/bt_sign_in"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_ForgotPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_shape"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:letterSpacing="0.2"
+        android:text="@string/sign_in" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/bt_sign_in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/txt"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:letterSpacing="0.1"
+            android:text="@string/don_t_have_an_account" />
+
+        <TextView
+            android:id="@+id/tv_sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:onClick="sign_up"
+            android:letterSpacing="0.1"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:text="@string/sign_up" />
+    </LinearLayout>
+</RelativeLayout>

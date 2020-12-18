@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "455839534415",
+    "firebase_url": "https://project-moca.firebaseio.com",
+    "project_id": "project-moca",
+    "storage_bucket": "project-moca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455839534415:android:459e13cbd27a0ea59b093a",
+        "android_client_info": {
+          "package_name": "com.f_a.project_moca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455839534415-ln15gmavvr03gnau91s8o8ouebl361tc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.f_a.project_moca",
+            "certificate_hash": "f6bdd82458ed333477a17718ae3586e3a1b424f2"
+          }
+        },
+        {
+          "client_id": "455839534415-fol1lppntdbe6p33aib2kfnrud4bdfpa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6z66OyJeTy2D7Pp5ndkd6UtfWGlZi56U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455839534415-fol1lppntdbe6p33aib2kfnrud4bdfpa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="#FFF">
+    <item
+        android:id="@+id/movie"
+        android:icon="@drawable/ic_movies_24dp"
+        android:title="@string/movie" />
+    <item
+        android:id="@+id/tv_show"
+        android:icon="@drawable/ic_tv_24dp"
+        android:title="@string/tv_show" />
+    <item
+        android:id="@+id/favourite"
+        android:icon="@drawable/ic_favorite_24dp"
+        android:title="@string/favorite" />
+    <item
+        android:id="@+id/admin"
+        android:icon="@drawable/ic_person_24dp"
+        android:title="@string/admin" />
+</menu>
